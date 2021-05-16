@@ -26,9 +26,7 @@ self.addEventListener('install', function(event) {
 
   let CACHE_NAME = 'journal-cache';
   let urlsToCache = [
-    'https://cse110lab6.herokuapp.com/entries',
-    'https://doc-10-5s-docs.googleusercontent.com/docs/securesc/e4m7su6kueq4bs7eppglh15rg6f7hb2h/7qkrse3qm7empbvtbr1e175tjcpm8mtq/1621127400000/12817061224931336693/10287042487175732039Z/1Orwnly-OMhNt83tb-SAWt6Y3S6AYQgkk?e=download',
-    'https://doc-08-5s-docs.googleusercontent.com/docs/securesc/e4m7su6kueq4bs7eppglh15rg6f7hb2h/abp70la007dojh4dm3edu9nohor1pav9/1621127325000/12817061224931336693/10287042487175732039Z/1luYh909US7ZBFe6uo440Vv_LNnRdnErT?e=download'
+    'https://cse110lab6.herokuapp.com/entries'
   ];
   
 self.addEventListener('fetch', function(event) {
