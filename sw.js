@@ -18,6 +18,7 @@ self.addEventListener('activate', event => {
 let CACHE_NAME = 'journal-cache';
 let urlsToCache = [
   './',
+  './settings.svg',
   './index.html',
   './style.css',
   './scripts/router.js',
